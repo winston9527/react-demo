@@ -133,12 +133,12 @@ export default function SimplePopover() {
               anchorEl={anchorElDelete}
               onClose={handleCloseDelete}
               anchorOrigin={{
-                vertical: "bottom",
+                vertical: "center",
                 horizontal: "right",
               }}
               style={{zIndex:2001}}
             >
-              <div id="shanchu" ref={popoverRefDelete}>
+              <div id="shanchu" ref={popoverRefDelete} style={{width:"300px"}}>
                 <Typography className={classes.typography}>
                   你真的需要删除了吗   --  本demo  使用两个 Popover实现，导致 无法一次性关闭两个popver  需要点两次才行
                 </Typography>
