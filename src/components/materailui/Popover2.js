@@ -100,6 +100,8 @@ export default function SimplePopover() {
             <br />
             <span>The content of the Popover.</span>
             <br />
+            </Typography>
+
             <div
               onClick={handleClickDelete}
               style={{
@@ -142,7 +144,6 @@ export default function SimplePopover() {
                 </Typography>
              </div>
             </Popover>
-          </Typography>
         </div>
       </Popover>
     </div>
